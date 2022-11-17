@@ -1,43 +1,51 @@
+Traccia 1
+Nel frigo si inizia a sentire l’eco, perciò è ora di fare rifornimenti!
+Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca in una lista, 
+così una volta al supermercato, girando tra gli scaffali, 
+posso verificare di aver preso tutto e Ricky non rimane senza crocchette come l’ultima volta, 
+povero! Devo ricordarmi di usare il coupon che scade a fine mese, 
+per il resto dovrebbero bastarmi i contanti che ho in portafogli, 
+sempre se non mi faccio prendere la mano con gli snack extra! 
+
+PSEUDO-CODICE
     -   Mi dirigo verso il frigo
     -   Apro il frigo
     -   Guardo cosa manca in frigo AND cosa manca per il Ricky 
         - SE manca qualcosa 
             - Lo scrivo nella lista 
-        - ALTRIMENTI non lo scrivo 
-    -   Finito di scrivere la lista 
-
-    -   * Controllo l'orario del supermercato 
+        - ALTRIMENTI
+            - non lo scrivo 
+    -   Finisco di scrivere la lista 
+    -   * Controllo l'orario del supermercato
         -   SE il supermercato e' aperto 
             -   Mi dirigo al supermercato 
         -   ALTRIMENTI 
             - cerco un altro supermercato * 
-
     -   Arrivo al supermercato
     -   SE la lista e' lunga 
         - Prendo il carrello 
     -   ALTRIMENTI 
         -   prendo il cestino 
-    -   Mi dirigo in un reparto 
-
+    -   Mi dirigo al primo reparto 
     -  * PER ogni oggetto della lista 
         -   SE c'e' il prodotto nel reparto 
             -   Lo prendo
         -   ALTRIMENTI
             -    non lo prendo
-    -   Mi dirigo al reparto successivo *
     
-    -   Mi dirigo verso le casse 
+    -   SE il reparto in cui mi trovo è l'ultimo 
+        -   Mi dirigo verso le casse 
+    -   ALTRIMENTI
+        -   Mi dirigo al reparto successivo *
+    
+    -   Arrivato alle casse
     -   Pago con il coupon 
         -   SE il coupon non copre il totale 
                 -   SE non li ho gia' spesi per gli snack
                      -    integro con i contanti 
                 -   ALTRIMENTI 
-                    -  poso gli snack 
-        
-
-
-
-
-
+                    -  poso gli snack (pago con carta)
+    -   Carico la spesa 
+    -   Torno a casa
 
         
